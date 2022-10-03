@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Navigation Bar Template</title>
+    <link rel="stylesheet" href="./css/rightbar.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <body>
+    <div class="rightbar">
+    <div class="right_items" id="rightbar">
+      <a  id="brandlabel">DB_Game_of_Thrones</a>
+        <a  href="./clogin.php">HOME</a> 
+        <a href="./index.html#about">ABOUT</a>
+        <a href="./index.html#contact">CONTACT</a>
+      <a href="javascript:void(0);" class="icon" onclick="mobileExpand()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
+    </div>
+    <script>
+    function mobileExpand() {
+      var x = document.getElementById("rightbar");
+      if (x.className === "right_items") {
+        x.className += " responsive";
+      } else {
+        x.className = "right_items";
+      }
+    }
+    </script>
+  </body>
+</html>

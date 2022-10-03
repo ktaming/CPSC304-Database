@@ -1,0 +1,51 @@
+.command-container {
+  background-color: #800000;
+  color: white;
+  opacity: 0.7;
+  margin-left: 250px;
+  width: 60%;
+  height: 100px;
+}
+
+.command{
+  margin: 0;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 50%;
+  display: flex;
+  justify-content: space-evenly;
+
+}
+
+.command img{
+  height: 3em;
+  filter: invert(80%);
+}
+
+/*.update-container {
+  background-color: #800000;
+  color: white;
+  opacity: 0.7;
+  margin-left: 250px;
+  width: 60%;
+  height: 200px;
+}
+
+.update{
+  margin: 0;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 50%;
+  display: flex;
+  justify-content: space-evenly;
+
+}
+
+.update img{
+  height: 3em;
+  filter: invert(80%);
+}*/
