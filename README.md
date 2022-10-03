@@ -10,3 +10,6 @@ Go to the home page of our database:
 https://www.students.cs.ubc.ca/~siweiz/index.php
 
 Repository for SuperRent project, part of CPSC 304 2020W1, group 068. Oracle SQL were used for creating and populating tables. SQL queries are embedded into the webpage of HTML5 (with some css.) 
+
+
+![image](https://github.com/ktaming/CPSC304-Database/raw/main/Dragon.jpg)
